@@ -1,0 +1,10 @@
+# Config for stage1.py
+directories:
+  input: /tmp/stage1/input
+  error: /tmp/stage1/errors
+  work: /tmp/stage1/.working
+  output: /tmp/stage2/input/
+bucket-directories:
+    input: stage1/input
+    output: stage1/tmp
+    errors: stage1/errors
